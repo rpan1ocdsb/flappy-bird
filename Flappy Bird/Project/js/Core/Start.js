@@ -1,3 +1,3 @@
 function startGame {
-  document.getElementById("game1").display = 
+  document.getElementById("game1").display = ""
 }

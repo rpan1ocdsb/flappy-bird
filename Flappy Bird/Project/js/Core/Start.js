@@ -5,9 +5,9 @@ function startGame() {
   } else {
     x.className = "game1";
   } var y = document.getElementById("startButton");
-  if (x.className === "game2") {
-    x.className = "game1";
+  if (y.className === "game2") {
+    y.className = "game1";
   } else {
-    x.className = "game2";
+    y.className = "game2";
   }
 }

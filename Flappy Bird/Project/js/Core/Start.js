@@ -1,4 +1,4 @@
-function startGame {
+function startGame() {
   var x = document.getElementById("gameCanvas");
   if (x.className === "game1") {
     x.className = "game2";

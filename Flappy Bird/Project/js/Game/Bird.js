@@ -114,7 +114,7 @@ class birdClass
     {
         var scale = 1
         var color = (this.live) ? "red" : "black";
-        drawImage(spiderman, BIRD_X + BIRD_WIDTH, this.height + BIRD_HEIGHT, 0, scale, scale);
+        drawImage(chest, BIRD_X + BIRD_WIDTH, this.height + BIRD_HEIGHT, 0, scale, scale);
         drawRect(BIRD_X, this.height, BIRD_WIDTH, BIRD_HEIGHT, color);
 
     }
